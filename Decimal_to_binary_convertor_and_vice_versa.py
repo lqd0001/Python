@@ -1,5 +1,5 @@
 try:
-    menu = int(input("Choose an option: \n 1.Decimal to binary \n 2. Binary to decimal\n Option : "))
+    menu = int(input("Choose an option: \n 1.Decimal to binary \n 2.Binary to decimal\n Option : "))
     if menu <1 or menu >2:
         raise ValueError
     if menu == 1:
