@@ -7,6 +7,6 @@ try:
         print("Binary:{}".format(bin(dec)[2:]))
     elif menu == 2:
         binary = input("Input your binary number:\n Binary: ")
-        print("Decimal: {}".format(int(binary,2)))
+        print("Decimal: {}".format(int(binary,2)))  #int()函数参数有两个,第一个x是字符串（字符串只有数字）,第二个是进制,默认是10,可以是2-36中的整数。
 except ValueError:
     print("please choose a valid option")
